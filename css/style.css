@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.form__exemplo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#textoInput{
+    width: 30%;
+    height: 200px;    
+}
+
+
+#nomeInput{
+    width: 30%;
+    height: 30px;
+}
+
+.texto__button {   
+    background-color: #7F479B;
+    color: #ffffff;
+    border: 0;
+    width: 10%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    height: 40px;
+}
+
+.texto__button:hover {
+    background-color: #462755;
+    color: #ECDDF3;
+    transition: 0.3s;
+}
+
+
+.nova__linha{
+    color: rebeccapurple;
+    border: 1px dashed rebeccapurple;
+    width: 30%;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.novo__nome{
+    font-weight: bold;
+    font-size: 10PX;
+    font-style: italic;
+}
+
+.novo__texto{
+    text-align: justify;
+}
